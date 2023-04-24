@@ -501,3 +501,109 @@ main {
 
 // Video End
 
+
+//Last Section Start
+
+
+#LastSection {
+    background-color: #ffffff;
+    width: 100%;
+    margin: auto;
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 200px;
+
+    .last1 {
+        width: 70%;
+        margin: auto;
+
+        h2 {
+            margin-top: 35px;
+            font-family: "Raleway", sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 15px;
+            font-weight: 200;
+            color: $gray;
+        }
+
+        p {
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #939393;
+            line-height: 20px;
+            letter-spacing: 2px;
+            width: 80%;
+            margin: auto;
+        }
+    }
+
+    .BackYellow {
+        background-color: $yellow;
+        width: 100%;
+        height: 250px;
+        position: relative;
+        top: 85%;
+        z-index: 0;
+        margin-top: 275px;
+
+        .lastItem3 {
+            width: 40%;
+            margin: auto;
+            text-align: center;
+            z-index: 1;
+
+            .i-1 {
+                p {
+                    padding-bottom: 90px;
+                    font-size: 1.2em;
+                    padding-top: 55px;
+                    padding-left: 75px;
+                    padding-right: 75px;
+                    line-height: 20px;
+                    background-color: $gray;
+                    color: $lightGray;
+                }
+
+            }
+
+            .i-2 {
+                p {
+                    margin-top: 85px;
+                    padding-right: 55px;
+                    padding-left: 95px;
+                    font-size: 0.8em;
+                    line-height: 15px;
+                    letter-spacing: 2px;
+                    color: $gray;
+                }
+
+                h2 {
+                    font-size: 1em;
+                    margin-top: 35px;
+                    text-align: left;
+                    padding-left: 115px;
+                    letter-spacing: 2px;
+                    font-weight: 350;
+                    font-family: "Raleway", sans-serif;
+                    text-transform: uppercase;
+                    padding-bottom: 70px;
+                }
+            }
+        }
+
+        .box1 {
+            position: absolute;
+            left: 100px;
+            top: -175px;
+        }
+
+        .box2 {
+            position: absolute;
+            right: 100px;
+            bottom: -200px;
+        }
+
+    }
+}
+
+//Last Section End

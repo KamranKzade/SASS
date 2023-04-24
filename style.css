@@ -362,4 +362,89 @@ main p {
   padding: 30px 45px;
   letter-spacing: 13px;
   background-color: #1a1a1a;
+}
+
+#LastSection {
+  background-color: #ffffff;
+  width: 100%;
+  margin: auto;
+  padding-top: 80px;
+  text-align: center;
+  padding-bottom: 200px;
+}
+#LastSection .last1 {
+  width: 70%;
+  margin: auto;
+}
+#LastSection .last1 h2 {
+  margin-top: 35px;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  font-weight: 200;
+  color: #1a1a1a;
+}
+#LastSection .last1 p {
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #939393;
+  line-height: 20px;
+  letter-spacing: 2px;
+  width: 80%;
+  margin: auto;
+}
+#LastSection .BackYellow {
+  background-color: #ffe500;
+  width: 100%;
+  height: 250px;
+  position: relative;
+  top: 85%;
+  z-index: 0;
+  margin-top: 275px;
+}
+#LastSection .BackYellow .lastItem3 {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  z-index: 1;
+}
+#LastSection .BackYellow .lastItem3 .i-1 p {
+  padding-bottom: 90px;
+  font-size: 1.2em;
+  padding-top: 55px;
+  padding-left: 75px;
+  padding-right: 75px;
+  line-height: 20px;
+  background-color: #1a1a1a;
+  color: #f4f4f4;
+}
+#LastSection .BackYellow .lastItem3 .i-2 p {
+  margin-top: 85px;
+  padding-right: 55px;
+  padding-left: 95px;
+  font-size: 0.8em;
+  line-height: 15px;
+  letter-spacing: 2px;
+  color: #1a1a1a;
+}
+#LastSection .BackYellow .lastItem3 .i-2 h2 {
+  font-size: 1em;
+  margin-top: 35px;
+  text-align: left;
+  padding-left: 115px;
+  letter-spacing: 2px;
+  font-weight: 350;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 70px;
+}
+#LastSection .BackYellow .box1 {
+  position: absolute;
+  left: 100px;
+  top: -175px;
+}
+#LastSection .BackYellow .box2 {
+  position: absolute;
+  right: 100px;
+  bottom: -200px;
 }/*# sourceMappingURL=style.css.map */
