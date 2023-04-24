@@ -1,0 +1,365 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+header {
+  background-color: #1a1a1a;
+  padding: 20px 0;
+}
+header .icons {
+  width: 60%;
+  margin: auto;
+  display: flex;
+}
+header .icons .icon {
+  width: 50%;
+}
+header .icons .i-1 {
+  text-align: left;
+}
+header .icons .i-2 {
+  text-align: right;
+}
+header .center {
+  text-align: center;
+  margin-top: 280px;
+}
+header .center h1 {
+  font-size: 1.25em;
+  letter-spacing: 15px;
+  color: white;
+  font-weight: 200;
+}
+header .center p {
+  font-size: 0.8em;
+  font-weight: 200;
+  color: white;
+  letter-spacing: 5px;
+  margin-top: 35px;
+}
+header .center a {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 16px 35px;
+  text-decoration: none;
+  letter-spacing: 4px;
+  color: #1a1a1a;
+  margin-top: 50px;
+  background-color: #ffe500;
+}
+header .center img {
+  display: block;
+  margin: auto;
+  margin-top: 250px;
+}
+
+main {
+  padding-top: 170px;
+  padding-bottom: 220px;
+  background-color: white;
+  text-align: center;
+}
+main p {
+  font-size: 0.9em;
+  color: #939393;
+  width: 30%;
+  margin: auto;
+  line-height: 30px;
+  margin-top: 95px;
+}
+
+#services {
+  padding-bottom: 35px;
+  padding-top: 80px;
+  background-color: #f4f4f4;
+}
+#services #sub-services {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+#services #sub-services h1 {
+  font-size: 1.25em;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+  font-weight: 200;
+  margin-top: 35px;
+  color: #1a1a1a;
+}
+#services #sub-services p {
+  margin-top: 45px;
+  font-size: 0.9em;
+  color: #939393;
+  line-height: 30px;
+}
+
+.base-ItemAndSkills, #Stats #StartsItems, #items, #Skills {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.base-Item, #Stats #StartsItems .item, #Skills .item, .item {
+  width: 23.5%;
+  text-align: center;
+  box-shadow: 0 0 5px lightgray;
+  box-sizing: border-box;
+  padding: 25px;
+  border: 0;
+  background-color: white;
+}
+
+.item {
+  padding-bottom: 20px;
+}
+
+#Skills {
+  margin-top: 30px;
+}
+#Skills .item {
+  padding-top: 15px;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+#Skills .item p {
+  letter-spacing: 2px;
+  font-size: 0.8em;
+  text-align: left;
+  margin-bottom: 15px;
+}
+#Skills .item .outSection {
+  background-color: #f4f4f4;
+  width: 100%;
+  height: 0.5vh;
+  margin-bottom: 20px;
+}
+#Skills .item .outSection .inSectionk {
+  background-color: #ffe500;
+  height: 0.5vh;
+  text-align: left;
+}
+#Skills .i-1 .outSection .i-1 {
+  width: 85%;
+}
+#Skills .i-1 .outSection .i-2 {
+  width: 98%;
+}
+#Skills .i-1 .outSection .outSection .i-3 {
+  width: 72%;
+}
+#Skills .i-2 .outSection .i-1 {
+  width: 97%;
+}
+#Skills .i-2 .outSection .i-2 {
+  width: 78%;
+}
+#Skills .i-2 .outSection .i-3 {
+  width: 89%;
+}
+#Skills .i-3 .outSection .i-1 {
+  width: 98%;
+}
+#Skills .i-3 .outSection .i-2 {
+  width: 98%;
+}
+#Skills .i-3 .outSection .i-3 {
+  width: 76%;
+}
+#Skills .i-4 .outSection .i-1 {
+  width: 79%;
+}
+#Skills .i-4 .outSection .i-2 {
+  width: 82%;
+}
+#Skills .i-4 .outSection .i-3 {
+  width: 77%;
+}
+
+#items {
+  margin-top: 85px;
+}
+#items .item h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.8em;
+  margin-top: 35px;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  color: #1a1a1a;
+}
+#items .item p {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.8em;
+  color: gray;
+  margin-top: 45px;
+}
+
+#Stats {
+  background-color: #1a1a1a;
+  padding: 85px 0px;
+}
+#Stats #StartsItems .item {
+  padding: 0px;
+}
+#Stats #StartsItems .item h2 {
+  font-size: 1em;
+  padding-top: 15px;
+}
+#Stats #StartsItems .item p {
+  margin-top: 13px;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+}
+
+.base-liner, #Portfolio .box .i-1 .liner,
+#Portfolio .box .i-3 .liner {
+  background-color: black;
+  height: 0.05vh;
+}
+
+.base-border, #Portfolio .box .i-1 .border,
+#Portfolio .box .i-3 .border {
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.base-iler, #Portfolio .box .i-1,
+#Portfolio .box .i-3 {
+  justify-content: center;
+  text-align: center;
+}
+
+#Portfolio {
+  padding-bottom: 35px;
+  padding-top: 80px;
+  background-color: #ffffff;
+}
+#Portfolio #sub-Portfolio {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+#Portfolio #sub-Portfolio h1 {
+  font-size: 1.25em;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+  font-weight: 200;
+  margin-top: 35px;
+  color: #1a1a1a;
+}
+#Portfolio #sub-Portfolio p {
+  margin-top: 45px;
+  font-size: 0.9em;
+  color: #939393;
+  line-height: 30px;
+}
+#Portfolio .box {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  margin-top: 90px;
+  justify-content: space-between;
+  align-items: center;
+}
+#Portfolio .box .Boxitem {
+  width: 40%;
+}
+#Portfolio .box .Boxitem .border {
+  display: flex;
+}
+#Portfolio .box .Boxitem .border p {
+  width: 45%;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.8em;
+  margin-left: 20px;
+  color: #1a1a1a;
+}
+#Portfolio .Colors {
+  width: 100%;
+  margin-top: 90px;
+  height: 31vh;
+  display: flex;
+}
+#Portfolio .Colors .color {
+  width: 17%;
+}
+#Portfolio .Colors .color .inColor {
+  height: 80%;
+  background-color: #ffe500;
+  width: 70%;
+  z-index: 2;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 35px;
+}
+#Portfolio .Colors .color .words {
+  margin-top: 45px;
+  margin-left: 11px;
+  width: 90%;
+  height: 51%;
+  background-color: #ffffff;
+  z-index: 4;
+  position: relative;
+  text-align: center;
+  padding-top: 35px;
+}
+#Portfolio .Colors .color .words h2 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 0.8em;
+  color: #1a1a1a;
+}
+#Portfolio .Colors .color .words p {
+  font-size: 0.8em;
+  margin-top: 30px;
+  color: gray;
+}
+#Portfolio .Colors .i-1 {
+  position: relative;
+}
+#Portfolio .aSec {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+#Portfolio .aSec a {
+  text-align: center;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 16px 35px;
+  text-decoration: none;
+  letter-spacing: 4px;
+  color: #1a1a1a;
+  margin-top: 85px;
+  background-color: #ffe500;
+}
+
+#Video {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-top: 85px;
+  background-color: #1a1a1a;
+  padding-top: 145px;
+  padding-bottom: 150px;
+}
+#Video a {
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #ffe500;
+  color: #ffe500;
+  text-transform: uppercase;
+  padding: 30px 45px;
+  letter-spacing: 13px;
+  background-color: #1a1a1a;
+}/*# sourceMappingURL=style.css.map */
